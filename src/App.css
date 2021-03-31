@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+}
+.container{
+  width: 100%;
+  box-shadow:0 0 1px #999;
+  padding:2px;
+  display:flex;
+}
+.container ol{
+    width: 25%;  
+}
+
+.box{
+  width: 15em;
+  box-shadow: 0 0 1px #999;
+  display: flex;
+  padding:0.2em;
+  justify-content: space-between;
+}
+.box input {
+  border:none;
+  outline:none;
+  padding:3px;
+  width:100%;
+}
+.box button{
+  border:none;
+  outline:none;
+  background-color: transparent;
+}
